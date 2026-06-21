@@ -3,7 +3,6 @@ if not game:IsLoaded() then
 end
 wait(math.random())
 local games = {
-    [121864768012064] = 'https://raw.githubusercontent.com/youngboyfan/ybhub/refs/heads/main/fishit', -- fishit
     [9190691] = 'https://raw.githubusercontent.com/joustingmatch/ouorboroshub3/refs/heads/main/animesquadron', -- squadron
     [896806231] = 'https://raw.githubusercontent.com/joustingmatch/femboyboros/refs/heads/main/axeRNG', -- axe rng
     [759293173] = 'https://raw.githubusercontent.com/joustingmatch/ouroboros69/refs/heads/main/reignpiece', -- reign piece
