@@ -19,7 +19,7 @@ local games = {
     [572660282] = 'https://raw.githubusercontent.com/joustingmatch/ouroboroshub1/refs/heads/main/animeultraonsimulator', -- anime ultron simulator
     [2568838] = 'https://raw.githubusercontent.com/joustingmatch/miniboros/refs/heads/main/TreeRNG', -- tree rng
     [15504927] = 'https://raw.githubusercontent.com/joustingmatch/wummyboros/refs/heads/main/launchawheel', -- launch a wheel
-    [4651630] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/joustingmatch/OuroborosPiece/refs/heads/main/LineagePiece"))()', -- lineage piece
+    [4651630] = 'https://raw.githubusercontent.com/joustingmatch/OuroborosPiece/refs/heads/main/LineagePiece', -- lineage piece
 }
 if games[game.CreatorId] then
     task.wait(math.random())
