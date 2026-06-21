@@ -1,0 +1,27 @@
+if not game:IsLoaded() then 
+    game.Loaded:Wait() 
+end
+wait(math.random())
+local games = {
+    [121864768012064] = 'https://raw.githubusercontent.com/youngboyfan/ybhub/refs/heads/main/fishit', -- fishit
+    [9190691] = 'https://raw.githubusercontent.com/joustingmatch/ouorboroshub3/refs/heads/main/animesquadron', -- squadron
+    [896806231] = 'https://raw.githubusercontent.com/joustingmatch/femboyboros/refs/heads/main/axeRNG', -- axe rng
+    [759293173] = 'https://raw.githubusercontent.com/joustingmatch/ouroboros69/refs/heads/main/reignpiece', -- reign piece
+    [973045631] = 'https://raw.githubusercontent.com/joustingmatch/ouroboroshub67/refs/heads/main/animecardfarm', -- anime card farm
+    [104489519] = 'https://raw.githubusercontent.com/joustingmatch/snakeeatingitself/refs/heads/main/defendurbasewithanime', -- defend ur base with anime
+    [446405201] = 'https://raw.githubusercontent.com/joustingmatch/ouroborosgrowth/refs/heads/main/mergeanuke', -- merge a nuke
+    [5028964] = 'https://raw.githubusercontent.com/joustingmatch/sloppyouroboros/refs/heads/main/sabersimulator', -- saber simulator
+    [561990553] = 'https://raw.githubusercontent.com/joustingmatch/freakyouroboros/refs/heads/main/survivezombiearena', -- survive zombie arena
+    [35906875] = 'https://raw.githubusercontent.com/joustingmatch/ouroboros7/refs/heads/main/animestory2', -- anime story 2
+    [33910482] = 'https://raw.githubusercontent.com/joustingmatch/ouroboros6/refs/heads/main/animeworldfighters', -- world fighters
+    [895955624] = 'https://raw.githubusercontent.com/joustingmatch/ouroboroshub/refs/heads/main/animerng', -- anime rng
+    [168519468] = 'https://raw.githubusercontent.com/joustingmatch/ouroboroshub2/refs/heads/main/animeastralsimualtor', -- anime astral simulator
+    [1006239440] = 'https://raw.githubusercontent.com/joustingmatch/ouroboross5/refs/heads/main/animebattlerng', -- anime battle rng
+    [572660282] = 'https://raw.githubusercontent.com/joustingmatch/ouroboroshub1/refs/heads/main/animeultraonsimulator', -- anime ultron simulator
+    [2568838] = 'https://raw.githubusercontent.com/joustingmatch/miniboros/refs/heads/main/TreeRNG', -- tree rng
+    [15504927] = 'https://raw.githubusercontent.com/joustingmatch/wummyboros/refs/heads/main/launchawheel', -- launch a wheel
+}
+if games[game.CreatorId] then
+    task.wait(math.random())
+    loadstring(game:HttpGet(games[game.CreatorId]))()
+end
