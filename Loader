@@ -21,7 +21,7 @@ local games = {
     [15504927] = 'https://raw.githubusercontent.com/joustingmatch/wummyboros/refs/heads/main/launchawheel', -- launch a wheel
     [4651630] = 'https://raw.githubusercontent.com/joustingmatch/OuroborosPiece/refs/heads/main/LineagePiece', -- lineage piece
     [2823500] = 'https://raw.githubusercontent.com/joustingmatch/OuroborosWeapons/refs/heads/main/Untitled%20Melee%20RNG',
-    [889770537] = 'https://raw.githubusercontent.com/joustingmatch/miniboros/refs/heads/main/TreeRNG', -- Farm RNG
+    [889770537] = 'https://raw.githubusercontent.com/joustingmatch/FarmingwithOuroboros/refs/heads/main/FarmRNG', -- Farm RNG
 }
 if games[game.CreatorId] then
     task.wait(math.random())
