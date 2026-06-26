@@ -23,6 +23,7 @@ local games = {
     [2823500] = 'https://raw.githubusercontent.com/joustingmatch/OuroborosWeapons/refs/heads/main/Untitled%20Melee%20RNG',
     [889770537] = 'https://raw.githubusercontent.com/joustingmatch/FarmingwithOuroboros/refs/heads/main/FarmRNG', -- Farm RNG
     [432538536] = 'https://raw.githubusercontent.com/joustingmatch/OuroborosGAG2/refs/heads/main/Grow%20A%20Garden%202', -- Grow a Garden 2
+    [10353739] = 'https://raw.githubusercontent.com/joustingmatch/lrngboros/refs/heads/main/LootRNG', -- Loot RNG
 }
 if games[game.CreatorId] then
     task.wait(math.random())
