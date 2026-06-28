@@ -27,6 +27,7 @@ local games = {
     [654102831] = 'https://raw.githubusercontent.com/joustingmatch/borosmoros/refs/heads/main/BombFishing', -- Bomb Fishing
     [32001182] = 'https://raw.githubusercontent.com/joustingmatch/borosmerge/refs/heads/main/MergevsMobs', -- Merge vs Mobs
     [719390069] = 'https://raw.githubusercontent.com/joustingmatch/OuroborosLucky/refs/heads/main/LuckyBlockRush`, -- Lucky Block Rush
+
 }
 if games[game.CreatorId] then
     task.wait(math.random())
