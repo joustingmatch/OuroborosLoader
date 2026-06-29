@@ -29,6 +29,7 @@ local games = {
     [719390069] = 'https://raw.githubusercontent.com/joustingmatch/OuroborosLucky/refs/heads/main/LuckyBlockRush', -- Lucky Block Rush
     [374857141] = 'https://raw.githubusercontent.com/joustingmatch/AxeBoros/refs/heads/main/PickaxeTycoon', -- Pickaxe Tycoon
     [15904375] =  'https://raw.githubusercontent.com/joustingmatch/BorosRNG/refs/heads/main/RNGHeroes', -- RNG Heroes
+    [1105128955] = 'https://raw.githubusercontent.com/joustingmatch/ClickonmyBoros/refs/heads/main/ClickSimulator', -- Clicker Simulator
 
 }
 if games[game.CreatorId] then
