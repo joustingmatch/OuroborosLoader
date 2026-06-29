@@ -28,6 +28,7 @@ local games = {
     [32001182] = 'https://raw.githubusercontent.com/joustingmatch/borosmerge/refs/heads/main/MergevsMobs', -- Merge vs Mobs
     [719390069] = 'https://raw.githubusercontent.com/joustingmatch/OuroborosLucky/refs/heads/main/LuckyBlockRush', -- Lucky Block Rush
     [374857141] = 'https://raw.githubusercontent.com/joustingmatch/AxeBoros/refs/heads/main/PickaxeTycoon', -- Pickaxe Tycoon
+    [15904375] =  'https://raw.githubusercontent.com/joustingmatch/BorosRNG/refs/heads/main/RNGHeroes', -- RNG Heroes
 
 }
 if games[game.CreatorId] then
