@@ -31,7 +31,7 @@ local games = {
     [15904375] =  'https://raw.githubusercontent.com/joustingmatch/BorosRNG/refs/heads/main/RNGHeroes', -- RNG Heroes
     [1105128955] = 'https://raw.githubusercontent.com/joustingmatch/ClickonmyBoros/refs/heads/main/ClickSimulator', -- Clicker Simulator
     [51129361] = 'https://raw.githubusercontent.com/joustingmatch/slopboros/refs/heads/main/Scale%20Slimy%20Fish', -- Scale Slimy Fish
-
+    [711432426] = 'https://raw.githubusercontent.com/joustingmatch/WorldBoros/refs/heads/main/worldcupmanager', -- World Cup Manager
 }
 if games[game.CreatorId] then
     task.wait(math.random())
